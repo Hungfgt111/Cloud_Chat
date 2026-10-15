@@ -5,7 +5,7 @@ const API_BASE =
   import.meta.env.VITE_API_BASE ||
   (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
     ? 'http://localhost:8787'
-    : '')
+    : 'https://cloud-chat-k5jy.onrender.com');
 
 const PRESET_AVATARS = [
   'https://api.dicebear.com/7.x/bottts/svg?seed=Felix',
